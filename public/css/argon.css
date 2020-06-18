@@ -22403,7 +22403,7 @@ textarea[resize="horizontal"] {
 }
 
 .nav-link:hover {
-  color: #5e72e4;
+  color: #472211;
 }
 
 .nav-link i.ni {
@@ -22417,7 +22417,7 @@ textarea[resize="horizontal"] {
 
 .nav-pills .nav-link {
   padding: 0.75rem 1rem;
-  color: #5e72e4;
+  color: #612e17;
   font-weight: 500;
   font-size: 0.875rem;
   -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -24486,6 +24486,14 @@ button.section-darker:focus {
 
 .floatfix:after {
   clear: both;
+}
+
+.amp-bg-color {
+  background-color: #ffffff;
+}
+
+.amp-color {
+  color: #612e17;
 }
 
 .img-center {

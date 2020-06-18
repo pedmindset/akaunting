@@ -1,10 +1,10 @@
 @stack('menu_start')
-    <nav class="sidenav navbar navbar-vertical fixed-left navbar-expand-xs navbar-light bg-default" id="sidenav-main">
+    <nav class="sidenav navbar navbar-vertical fixed-left navbar-expand-xs navbar-light amp-bg-color" id="sidenav-main">
         <div class="scrollbar-inner">
             <div class="sidenav-header d-flex align-items-center">
                 <ul class="navbar-nav">
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="amp-color" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <span class="avatar menu-avatar background-unset">
                                 <img class="border-radius-none border-0 mr-3" alt="Akaunting" src="{{ asset('public/img/akaunting-logo-white.svg') }}">
                             </span>

@@ -1,5 +1,5 @@
 @stack('navbar_start')
-<nav class="navbar navbar-top navbar-expand navbar-light border-bottom">
+<nav class="navbar navbar-top navbar-expand navbar-dark border-bottom">
     <div class="container-fluid">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             @stack('navbar_search')
