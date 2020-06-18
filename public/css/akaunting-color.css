@@ -2224,28 +2224,28 @@ div.required > .form-control-label:not(span):after, td.required:after
 /*--------Nav Pills Color--------*/
 .nav-link
 {
-    color: #3c3f72;
+    color: #e93d3d;
 }
 
 .nav-link:hover
 {
-    color: #161842;
+    color: #b93030;
 }
 
 .nav-pills .nav-link
 {
-    color: #3c3f72  !important;
+    color: #e93d3d  !important;
     background-color: #ffffff;
 }
 
 .nav-pills .nav-link:hover
 {
-    color: #161842;
+    color: #b93030;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link
 {
-    color: #ffffff !important;
+    color: #e93d3d !important;
     background-color: #3c3f72  !important;
 }
 /*--------Nav Pills Color Finish--------*/
