@@ -52,14 +52,14 @@
                 @stack('navbar_create')
 
                 <li class="nav-item d-sm-none">
-                    <a class="amp-color" href="#" data-action="search-show" data-target="#navbar-search-main">
+                    <a class="nav-link" href="#" data-action="search-show" data-target="#navbar-search-main">
                         <i class="fa fa-search"></i>
                     </a>
                 </li>
 
                 @permission(['create-sales-invoices', 'create-sales-revenues', 'create-sales-invoices', 'create-purchases-bills', 'create-purchases-payments', 'create-purchases-vendors'])
                     <li class="nav-item dropdown">
-                        <a class="amp-color" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <i class="fas fa-plus"></i>
                         </a>
                         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-dark dropdown-menu-right">
@@ -139,7 +139,7 @@
                 @stack('navbar_notifications')
 
                 <li class="nav-item dropdown">
-                    <a class="amp-color" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <span>
                             <i class="far fa-bell"></i>
                         </span>
@@ -199,7 +199,7 @@
 
                 @permission('read-install-updates')
                     <li class="nav-item">
-                        <a class="amp-color" href="{{ route('updates.index') }}" title="{{ $updates }} Updates Available" role="button" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link" href="{{ route('updates.index') }}" title="{{ $updates }} Updates Available" role="button" aria-haspopup="true" aria-expanded="false">
                             <span>
                                 <i class="fa fa-sync-alt"></i>
                             </span>
@@ -213,7 +213,7 @@
                 @stack('navbar_help_start')
 
                 <li class="nav-item d-none d-md-block">
-                    <a class="amp-color" href="{{ url(trans('header.support_link')) }}" target="_blank" title="{{ trans('general.help') }}" role="button" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link" href="{{ url(trans('header.support_link')) }}" target="_blank" title="{{ trans('general.help') }}" role="button" aria-haspopup="true" aria-expanded="false">
                         <i class="far fa-life-ring"></i>
                     </a>
                 </li>
@@ -225,7 +225,7 @@
 
             <ul class="navbar-nav align-items-center ml-auto ml-md-0">
                 <li class="nav-item dropdown">
-                    <a class="amp-color pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                         <div class="media align-items-center">
                             @if (!empty($user->picture))
                                 <img src="{{ Storage::url($user->picture->id) }}" class="rounded-circle image-style user-img" alt="{{ $user->name }}"/>
