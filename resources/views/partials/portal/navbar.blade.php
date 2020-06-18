@@ -13,7 +13,7 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="amp-color" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="far fa-bell"></i>
                         @if ($notifications)
                             <span class="badge badge-md badge-circle badge-reminder badge-warning">{{ $notifications }}</span>
@@ -69,7 +69,7 @@
 
                 @permission('read-install-updates')
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('updates.index') }}" title="{{ $updates }} Updates Available" role="button" aria-haspopup="true" aria-expanded="false">
+                        <a class="amp-color" href="{{ route('updates.index') }}" title="{{ $updates }} Updates Available" role="button" aria-haspopup="true" aria-expanded="false">
                             <span>
                                 <i class="fa fa-sync-alt"></i>
                             </span>
@@ -81,7 +81,7 @@
                 @endpermission
 
                 <li class="nav-item d-none d-md-block">
-                    <a class="nav-link" href="{{ url(trans('header.support_link')) }}" target="_blank" title="{{ trans('general.help') }}" role="button" aria-haspopup="true" aria-expanded="false">
+                    <a class="amp-color" href="{{ url(trans('header.support_link')) }}" target="_blank" title="{{ trans('general.help') }}" role="button" aria-haspopup="true" aria-expanded="false">
                         <i class="far fa-life-ring"></i>
                     </a>
                 </li>
