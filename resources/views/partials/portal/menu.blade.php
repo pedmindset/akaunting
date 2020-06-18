@@ -8,7 +8,7 @@
                             <span class="avatar menu-avatar background-unset">
                                 <img class="border-radius-none border-0 mr-3" alt="Image placeholder" src="{{ setting('company.logo') ? Storage::url(setting('company.logo')) : asset('public/img/akaunting-logo-white.svg') }}">
                             </span>
-                            <span class="nav-link-text long-texts pl-2 mwpx-100">{{ Str::limit(setting('company.name'), 22) }}</span>
+                            <span class="amp-color-text long-texts pl-2 mwpx-100">{{ Str::limit(setting('company.name'), 22) }}</span>
                         </a>
                     </li>
                 </ul>
