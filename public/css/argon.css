@@ -20558,11 +20558,11 @@ textarea[resize="horizontal"] {
 }
 
 .navbar-horizontal .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #612e17;
 }
 
 .navbar-horizontal .navbar-light .navbar-brand {
-  color: #32325d;
+  color: #612e17;
 }
 
 .navbar-horizontal .navbar-nav .nav-item .media:not(:last-child) {
@@ -20687,11 +20687,11 @@ textarea[resize="horizontal"] {
 }
 
 .navbar-horizontal.navbar-transparent .navbar-brand {
-  color: white;
+  color: #850404;
 }
 
 .navbar-horizontal.navbar-transparent .navbar-toggler {
-  color: white;
+  color: #740303;
 }
 
 .navbar-horizontal.navbar-transparent .navbar-toggler-icon {
@@ -20700,12 +20700,12 @@ textarea[resize="horizontal"] {
 
 @media (min-width: 768px) {
   .navbar-horizontal.navbar-transparent .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.95);
+    color: #612e17;
   }
 
   .navbar-horizontal.navbar-transparent .navbar-nav .nav-link:hover,
   .navbar-horizontal.navbar-transparent .navbar-nav .nav-link:focus {
-    color: rgba(255, 255, 255, 0.65);
+    color: #49210f;
   }
 
   .navbar-horizontal.navbar-transparent .navbar-nav .nav-link.disabled {
@@ -20716,16 +20716,16 @@ textarea[resize="horizontal"] {
   .navbar-horizontal.navbar-transparent .navbar-nav .active > .nav-link,
   .navbar-horizontal.navbar-transparent .navbar-nav .nav-link.show,
   .navbar-horizontal.navbar-transparent .navbar-nav .nav-link.active {
-    color: rgba(255, 255, 255, 0.65);
+    color: #612e17;
   }
 
   .navbar-horizontal.navbar-transparent .navbar-brand {
-    color: rgba(255, 255, 255, 0.95);
+    color: #612e17;
   }
 
   .navbar-horizontal.navbar-transparent .navbar-brand:hover,
   .navbar-horizontal.navbar-transparent .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.95);
+    color: #4d2310;
   }
 }
 
@@ -21055,7 +21055,7 @@ textarea[resize="horizontal"] {
   font-weight: 700;
   content: "\F105";
   margin-left: auto;
-  color: #ced4da;
+  color: #612e17;
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
 }
@@ -21068,7 +21068,7 @@ textarea[resize="horizontal"] {
 }
 
 .navbar-vertical .navbar-nav .nav-link[data-toggle="collapse"][aria-expanded="true"]:after {
-  color: #5e72e4;
+  color: #612e17;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
@@ -21188,7 +21188,7 @@ textarea[resize="horizontal"] {
 
 .navbar-vertical.navbar-expand-xs .lavalamp-object {
   width: calc(100% - 1rem) !important;
-  background: #5e72e4;
+  background: #612e17;
   color: #fff;
   margin-right: .5rem;
   margin-left: .5rem;
@@ -21309,7 +21309,7 @@ textarea[resize="horizontal"] {
 
   .navbar-vertical.navbar-expand-sm .lavalamp-object {
     width: calc(100% - 1rem) !important;
-    background: #5e72e4;
+    background: #612e17;
     color: #fff;
     margin-right: .5rem;
     margin-left: .5rem;
@@ -21431,7 +21431,7 @@ textarea[resize="horizontal"] {
 
   .navbar-vertical.navbar-expand-md .lavalamp-object {
     width: calc(100% - 1rem) !important;
-    background: #5e72e4;
+    background: #612e17;
     color: #fff;
     margin-right: .5rem;
     margin-left: .5rem;
@@ -21553,7 +21553,7 @@ textarea[resize="horizontal"] {
 
   .navbar-vertical.navbar-expand-lg .lavalamp-object {
     width: calc(100% - 1rem) !important;
-    background: #5e72e4;
+    background: #612e17;
     color: #fff;
     margin-right: .5rem;
     margin-left: .5rem;
@@ -21675,7 +21675,7 @@ textarea[resize="horizontal"] {
 
   .navbar-vertical.navbar-expand-xl .lavalamp-object {
     width: calc(100% - 1rem) !important;
-    background: #5e72e4;
+    background: #612e17;
     color: #fff;
     margin-right: .5rem;
     margin-left: .5rem;

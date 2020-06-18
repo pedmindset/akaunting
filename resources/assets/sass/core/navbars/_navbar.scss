@@ -34,13 +34,13 @@
 
     .navbar-dark {
         .navbar-brand {
-            color: $white;
+            color: #612e17;
         }
     }
 
     .navbar-light {
         .navbar-brand {
-            color: $gray-800;
+            color: #612e17;
         }
     }
 
@@ -173,11 +173,11 @@
         box-shadow: none;
 
         .navbar-brand {
-            color: rgba(255, 255, 255, 1);
+            color: rgb(133, 4, 4);
         }
 
         .navbar-toggler {
-            color: rgba(255, 255, 255, 1);
+            color: rgb(116, 3, 3);
         }
 
         .navbar-toggler-icon {
@@ -189,10 +189,10 @@
         &.navbar-transparent {
             .navbar-nav {
                 .nav-link {
-                    color: $navbar-dark-color;
+                    color: #612e17;
 
                     @include hover-focus {
-                        color: $navbar-dark-hover-color;
+                        color: #49210f;
                     }
 
                     &.disabled {
@@ -204,15 +204,15 @@
                 .active > .nav-link,
                 .nav-link.show,
                 .nav-link.active {
-                    color: $navbar-dark-active-color;
+                    color: #612e17;
                 }
             }
 
             .navbar-brand {
-                color: $navbar-dark-color;
+                color: #612e17;
 
                 @include hover-focus {
-                    color: $navbar-dark-color;
+                    color: #4d2310
                 }
             }
         }

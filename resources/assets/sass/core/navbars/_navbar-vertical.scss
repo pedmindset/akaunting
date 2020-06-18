@@ -123,14 +123,14 @@
             font-weight: 700;
             content: "\f105";
             margin-left: auto;
-            color: $gray-400;
+            color: #612e17;
             @include transition($transition-base);
         }
 
         // Expanded
         &[aria-expanded="true"] {
             &:after {
-                color: theme-color("primary");
+                color: theme-color("default");
                 transform: rotate(90deg);
             }
         }
@@ -252,8 +252,8 @@
 
                     .lavalamp-object {
                         width: calc(100% - 1rem) !important;
-                        background: theme-color("primary");
-                        color: color-yiq($primary);
+                        background: theme-color("default");
+                        color: color-yiq($default);
                         margin-right: .5rem;
                         margin-left: .5rem;
                         padding-left: 1rem;
@@ -410,7 +410,7 @@
                 }
             }
         }
-        
+
         .nav-item .collapse {
             display: none !important;
         }
