@@ -32,4 +32,8 @@ Route::group(['prefix' => 'auth'], function () {
         redirect('install/settings')->send();
     })->name('register');
 
+    Route::get('register/pro', function(){
+        redirect('install/settings/pro')->send();
+    })->name('register-pro');
+
 });
