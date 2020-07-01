@@ -27,11 +27,13 @@ class Settings extends Controller
      */
     public function store(Request $request)
     {
+        session(['locale' => 'en_GB']);
+
         // Create company
-        Installer::createCompany($request->get('company_name'), $request->get('company_email'), session('locale'));
+        Installer::createCompany($request->get('company_name'), $request->get('company_email'), session('locale', 'en_GB'));
 
         // Create user
-        Installer::createUser($request->get('user_email'), $request->get('user_password'), session('locale'));
+        Installer::createUser($request->get('user_email'), $request->get('user_password'), session('locale', 'en_GB'));
 
         // Make the final touches
         Installer::finalTouches();
@@ -40,5 +42,6 @@ class Settings extends Controller
         $response['redirect'] = route('login');
 
         return response()->json($response);
+    }
     }
 }
