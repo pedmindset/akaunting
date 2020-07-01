@@ -106,6 +106,8 @@
     import Form from './../../plugins/form';
     import {Step, Steps} from 'element-ui';
 
+    var base_path = url.replace(window.location.origin, '');
+
     export default {
         name: 'settings',
 
