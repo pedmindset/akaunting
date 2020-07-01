@@ -209,6 +209,6 @@
     window.Telescope = @json($telescopeScriptVariables);
 </script>
 
-<script src="{{ asset('public/vendor/telescope.app.js') }}"></script>
+<script src="{{ asset('public/vendor/telescope/app.js') }}"></script>
 </body>
 </html>
