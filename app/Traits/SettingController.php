@@ -5,7 +5,7 @@ namespace App\Traits;
 use App\Utilities\Installer;
 use Illuminate\Http\Request;
 
-class SettingController {
+trait SettingController {
 
     /**
      * Store a newly created resource in storage.

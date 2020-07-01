@@ -3,7 +3,7 @@
 namespace App\Traits;
 
 
-class SettingRequest {
+trait SettingRequest {
 
     /**
      * Get the validation rules that apply to the request.
