@@ -21,6 +21,7 @@ class CanInstall
         }
 
         // Already installed, redirect to login
-        redirect('auth/login')->send();
+        // redirect('auth/login')->send();
+        return $next($request);
     }
 }
