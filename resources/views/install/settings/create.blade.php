@@ -11,5 +11,7 @@
         {{ Form::textGroup('user_email', trans('install.settings.admin_email'), 'envelope', ['required' => 'required'], old('user_email'), 'col-md-12') }}
 
         {{ Form::passwordGroup('user_password', trans('install.settings.admin_password'), 'key', ['required' => 'required'], 'col-md-12 mb--2') }}
+
+    <input type="hidden" name="role" value="{{ \Spatie\Permission\Models\Role::where('name', 'basic')->first()->id  }}">
     </div>
 @endsection

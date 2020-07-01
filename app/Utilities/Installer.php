@@ -2,14 +2,15 @@
 
 namespace App\Utilities;
 
-use App\Jobs\Auth\CreateUser;
-use App\Jobs\Common\CreateCompany;
-use App\Utilities\Console;
-use Artisan;
-use Config;
 use DB;
 use File;
+use Config;
+use Artisan;
+use App\Utilities\Console;
 use Illuminate\Support\Str;
+use App\Jobs\Auth\CreateUser;
+use App\Traits\DatabaseCreation;
+use App\Jobs\Common\CreateCompany;
 
 /**
  * Class Installer
@@ -20,6 +21,8 @@ use Illuminate\Support\Str;
  */
 class Installer
 {
+    use DatabaseCreation;
+
     public static function checkServerRequirements()
     {
         $requirements = [];
