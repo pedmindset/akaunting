@@ -48,6 +48,11 @@ const router = new VueRouter({
             path:  '/install/settings',
             name: 'settings',
             component: Settings
+        },
+        {
+            path:  '/install/settings/pro',
+            name: 'settings',
+            component: Settings
         }
     ],
     linkActiveClass: 'active',

@@ -22,6 +22,6 @@ Route::post('database', 'Install\Database@store');
 
 Route::get('settings', 'Install\Settings@create')->name('install.settings');
 
-Route::get('settings/pro', 'Install\Settings@pro');
+Route::get('settings/pro', 'Install\Settings@pro')->name('install.settings.pro');
 
 Route::post('settings', 'Install\Settings@store');
