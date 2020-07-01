@@ -52,9 +52,9 @@ class CreateCompany extends Job
         }
 
         // Company seeds
-        Artisan::call('company:seed', [
-            'company' => $this->company->id
-        ]);
+        // Artisan::call('company:seed', [
+        //     'company' => $this->company->id
+        // ]);
 
         if (!$user = user()) {
             return;
@@ -64,10 +64,10 @@ class CreateCompany extends Job
         $user->companies()->attach($this->company->id);
 
         // User seeds
-        Artisan::call('user:seed', [
-            'user' => $user->id,
-            'company' => $this->company->id,
-        ]);
+        // Artisan::call('user:seed', [
+        //     'user' => $user->id,
+        //     'company' => $this->company->id,
+        // ]);
     }
 
     protected function updateSettings()
