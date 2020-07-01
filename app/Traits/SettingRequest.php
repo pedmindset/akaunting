@@ -12,6 +12,8 @@ trait SettingRequest {
      */
     public function rules()
     {
+        session(['locale' => 'en_GB']);
+        
         return [
             'company_name' => 'required',
             'company_email' => 'required',
