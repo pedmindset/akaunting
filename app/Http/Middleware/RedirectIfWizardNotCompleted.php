@@ -26,9 +26,9 @@ class RedirectIfWizardNotCompleted
             return $next($request);
         }
 
-        return $next($request);
+        
 
         // Redirect to wizard
-        // redirect()->route('wizard.edit')->send();
+        redirect()->route('wizard.edit')->send();
     }
 }
