@@ -18,7 +18,6 @@ trait SettingRequest {
             'user_email' => 'required',
             'user_password' => 'required',
             'role' => 'required',
-            'locale' => 'required',
             'currency' => 'required',
         ];
     }

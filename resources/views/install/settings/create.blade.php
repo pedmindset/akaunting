@@ -12,6 +12,17 @@
 
         {{ Form::passwordGroup('user_password', trans('install.settings.admin_password'), 'key', ['required' => 'required'], 'col-md-12 mb--2') }}
 
+        <div class="col-md-12">
+            <div class="form-group mb-0">
+                <select name="lang" id="lang" size="14" class="col-xl-12 form-control-label" required>
+                    @foreach (language()->allowed() as $code => $name)
+                        <option value="{{ $code }}" @if ($code == 'en-GB') {{ 'selected="selected"' }} @endif>{{ $name }}</option>
+                    @endforeach
+                </select>
+            </div>
+        </div>
+
+
         @if(\App\Models\Common\Company::pluck('id')->count() > 0)
         <input type="hidden" name="role" value="{{ \App\Models\Auth\Role::where('name', 'basic')->first()->id  }}">
         @else
