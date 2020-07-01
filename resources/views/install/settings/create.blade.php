@@ -12,6 +12,8 @@
 
         {{ Form::passwordGroup('user_password', trans('install.settings.admin_password'), 'key', ['required' => 'required'], 'col-md-12 mb--2') }}
 
+        <input type="hidden" name="locale" value="en_GB">
+
         @if(\App\Models\Common\Company::pluck('id')->count() > 0)
         <input type="hidden" name="role" value="{{ \App\Models\Auth\Role::where('name', 'basic')->first()->id  }}">
         @else
