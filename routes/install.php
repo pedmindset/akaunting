@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', 'Install\Requirements@show');
 Route::get('/', 'Install\Settings@create');
 // Route::get('requirements', 'Install\Requirements@show')->name('install.requirements');
-Route::get('requirements', 'Install\Settings@show')->name('install.requirements');
+Route::get('requirements', 'Install\Settings@create')->name('install.requirements');
 
 Route::get('language', 'Install\Language@create')->name('install.language');
 Route::get('language/getLanguages', 'Install\Language@getLanguages');

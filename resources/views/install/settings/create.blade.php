@@ -15,7 +15,7 @@
         @if(\App\Models\Common\Company::pluck('id')->count() > 0)
         <input type="hidden" name="role" value="{{ \App\Models\Auth\Role::where('name', 'basic')->first()->id  }}">
         @else
-        <input type="hidden" name="role" value="1" }}">
+        <input type="hidden" name="role" value="1">
         @endif
     </div>
 @endsection
