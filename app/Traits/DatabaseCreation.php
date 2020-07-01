@@ -13,14 +13,14 @@ trait DatabaseCreation {
         return true;
     }
 
-    public static function createCompany($name, $email, $locale, $currency)
+    public static function createCompany($name, $email, $locale)
     {
         dispatch_now(new CreateCompany([
             'name' => $name,
             'domain' => '',
             'email' => $email,
             'currency' => 'USD',
-            'locale' => $locale,
+            'locale' => 'en_GB',
             'enabled' => '1',
         ]));
     }
@@ -31,7 +31,7 @@ trait DatabaseCreation {
             'name' => '',
             'email' => $email,
             'password' => $password,
-            'locale' => $locale,
+            'locale' => 'en_GB',
             'companies' => session('company_id', 1),
             'roles' => $role,
             'enabled' => '1',
