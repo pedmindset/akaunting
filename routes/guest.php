@@ -13,6 +13,10 @@ Route::get('register', function(){
     redirect('install/settings');
 })->name('register');
 
+Route::get('register/pro', function(){
+    redirect('install/settings/pro');
+})->name('register-pro');
+
 Route::group(['prefix' => 'auth'], function () {
     Route::get('login', 'Auth\Login@create')->name('login');
     Route::post('login', 'Auth\Login@store');

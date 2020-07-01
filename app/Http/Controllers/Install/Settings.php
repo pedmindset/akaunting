@@ -18,6 +18,16 @@ class Settings extends Controller
         return view('install.settings.create');
     }
 
+     /**
+     * Show the form for creating a new resource.
+     *
+     * @return Response
+     */
+    public function pro()
+    {
+        return view('install.settings.pro');
+    }
+
     /**
      * Store a newly created resource in storage.
      *
