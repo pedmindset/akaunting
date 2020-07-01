@@ -26,5 +26,5 @@ Route::get('settings/pro', 'Install\Settings@pro')->name('install.settings.pro')
 
 Route::post('settings', 'Install\Settings@store');
 
-Route::post('settings\pro', 'Install\Settings@store');
+Route::post('settings/pro', 'Install\Settings@store');
 
