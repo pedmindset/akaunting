@@ -12,6 +12,6 @@
 
         {{ Form::passwordGroup('user_password', trans('install.settings.admin_password'), 'key', ['required' => 'required'], 'col-md-12 mb--2') }}
 
-    <input type="hidden" name="role" value="{{ \Spatie\Permission\Models\Role::where('name', 'basic')->first()->id  }}">
+        <input type="hidden" name="role" value="{{ \Spatie\Permission\Models\Role::where('name', 'basic')->first()->id  }}">
     </div>
 @endsection
