@@ -13,7 +13,7 @@
 
     <!-- Style sheets-->
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link href="{{ asset(mix($cssFile, 'vendor/telescope')) }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('public/vendor/telescope/app.css') }}" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div id="telescope" v-cloak>
@@ -209,6 +209,6 @@
     window.Telescope = @json($telescopeScriptVariables);
 </script>
 
-<script src="{{asset(mix('app.js', 'public/vendor/telescope'))}}"></script>
+<script src="{{ asset('public/vendor/telescope.app.js') }}"></script>
 </body>
 </html>
