@@ -22,7 +22,7 @@ class RedirectIfNotInstalled
         }
 
         // Already in the installation wizard
-        if (Str::startsWith($request->getPathInfo(), '/install')) {
+        if (Str::startsWith($request->getPathInfo(), '/wizard')) {
             return $next($request);
         }
 
