@@ -30,16 +30,20 @@ class CreateCompany extends Job
     public function handle()
     {
         \DB::transaction(function () {
-            $this->company = Company::create($this->request->all());
+        $this->company = Company::create($this->request->all());
 
-            // Clear settings
-            setting()->setExtraColumns(['company_id' => $this->company->id]);
-            setting()->forgetAll();
+        session(['company_id' => $this->company->id]);
 
-            $this->callSeeds();
+        // Clear settings
+        setting()->setExtraColumns(['company_id' => $this->company->id]);
+        setting()->forgetAll();
 
-            $this->updateSettings();
-        });
+        $this->callSeeds();
+
+        $this->updateSettings();
+    });
+
+    return $this->company;
 
         return $this->company;
     }

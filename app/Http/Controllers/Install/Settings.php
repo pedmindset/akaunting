@@ -33,7 +33,7 @@ class Settings extends Controller
         Installer::createCompany($request->get('company_name'), $request->get('company_email'), session('locale', 'en_GB'));
 
         // Create user
-        Installer::createUser($request->get('user_email'), $request->get('user_password'), session('locale', 'en_GB'));
+        Installer::createUser($request->get('user_email'), $request->get('user_password'), session('locale', 'en_GB'), $request->roles);
 
         // Make the final touches
         Installer::finalTouches();

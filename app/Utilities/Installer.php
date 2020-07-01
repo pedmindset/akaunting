@@ -245,15 +245,15 @@ class Installer
         ]));
     }
 
-    public static function createUser($email, $password, $locale)
+    public static function createUser($email, $password, $locale, $roles)
     {
         dispatch_now(new CreateUser([
             'name' => '',
             'email' => $email,
             'password' => $password,
             'locale' => $locale,
-            'companies' => ['1'],
-            'roles' => ['1'],
+            'companies' => session('company_id', '1'),
+            'roles' => $roles,
             'enabled' => '1',
         ]));
     }
