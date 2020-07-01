@@ -2,8 +2,8 @@
     <div class="card">
         <div class="card-header wizard-header p-3">
             <el-steps finish-status="success" align-center>
-                <el-step title="Language"></el-step>
-                <el-step title="Database"></el-step>
+                <!-- <el-step title="Language"></el-step>
+                <el-step title="Database"></el-step> -->
                 <el-step title="Admin"></el-step>
             </el-steps>
         </div>
