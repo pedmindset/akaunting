@@ -55,10 +55,13 @@ class CreateCompany extends Job
             app()->setLocale($this->request->get('locale'));
         }
 
-        // Company seeds
-        // Artisan::call('company:seed', [
-        //     'company' => $this->company->id
-        // ]);
+        if($this->company->id == 1){
+            // Company seeds
+            Artisan::call('company:seed', [
+                'company' => $this->company->id
+            ]);
+        }
+
 
         if (!$user = user()) {
             return;
