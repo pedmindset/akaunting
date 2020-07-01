@@ -70,6 +70,7 @@
                     <div class="invalid-feedback d-block" v-if="form.errors.has('user_password')" v-html="form.errors.get('user_password')"></div>
                 </div>
                 <div class="col-md-12 form-group mb--2">
+                     <label for="user_password" class="form-control-label">Language</label>
                     <div class="form-group mb-0">
                         <select v-model="form.lang" name="lang" id="lang" size="13" class="col-xl-12 form-control-label">
                             <option v-for="(name, code) in languages" :value="code">
@@ -134,7 +135,7 @@
             }
         },
 
-          mounted() {
+        mounted() {
             axios.get(base_path + '/install/language/getLanguages')
             .then(response => {
                 this.languages = response.data.languages;
