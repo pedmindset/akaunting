@@ -8,8 +8,10 @@ use Illuminate\Support\Facades\Route;
  * @see \App\Providers\Route::mapInstallRoutes
  */
 
-Route::get('/', 'Install\Requirements@show');
-Route::get('requirements', 'Install\Requirements@show')->name('install.requirements');
+// Route::get('/', 'Install\Requirements@show');
+Route::get('/', 'Install\Settings@create');
+// Route::get('requirements', 'Install\Requirements@show')->name('install.requirements');
+Route::get('requirements', 'Install\Settings@show')->name('install.requirements');
 
 Route::get('language', 'Install\Language@create')->name('install.language');
 Route::get('language/getLanguages', 'Install\Language@getLanguages');
