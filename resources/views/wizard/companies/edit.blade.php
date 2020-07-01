@@ -23,7 +23,7 @@
                 <div id="wizard-loading"></div>
                 <div class="row mb--4">
                     <div class="col-md-12 {!! (!setting('apps.api_key', null)) ?: 'hidden' !!}">
-                        <div class="form-group {{ $errors->has('api_key') ? 'has-error' : ''}}"
+                        {{-- <div class="form-group {{ $errors->has('api_key') ? 'has-error' : ''}}"
                             :class="[{'has-error': form.errors.get('api_key') }]">
                             {!! Form::label('api-key', trans('modules.api_key'), ['class' => 'form-control-label']) !!}
 
@@ -43,7 +43,7 @@
                             </div>
 
                             <div class="invalid-feedback d-block" v-if="form.errors.has('api_key')" v-html="form.errors.get('api_key')"></div>
-                        </div>
+                        </div> --}}
                         <p class="mb-0 mt--3">
                             <small>{!! trans('modules.get_api_key', ['url' => 'https://akaunting.com/dashboard']) !!}</small>
                         </p>
