@@ -11,11 +11,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('register', function(){
     redirect('install/settings');
-})->name('register');
+})->name('register')->send();
 
 Route::get('register/pro', function(){
     redirect('install/settings/pro');
-})->name('register-pro');
+})->name('register-pro')->send();
 
 Route::group(['prefix' => 'auth'], function () {
     Route::get('login', 'Auth\Login@create')->name('login');
@@ -29,7 +29,7 @@ Route::group(['prefix' => 'auth'], function () {
     Route::post('reset', 'Auth\Reset@store')->name('reset.store');
 
     Route::get('register', function(){
-        redirect('install/settings');
+        redirect('install/settings')->send();
     })->name('register');
 
 });
