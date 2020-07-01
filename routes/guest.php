@@ -10,12 +10,12 @@ use Illuminate\Support\Facades\Route;
  */
 
 Route::get('register', function(){
-    redirect('install/settings');
-})->name('register')->send();
+    redirect('install/settings')->send();
+})->name('register');
 
 Route::get('register/pro', function(){
-    redirect('install/settings/pro');
-})->name('register-pro')->send();
+    redirect('install/settings/pro')->send();
+})->name('register-pro');
 
 Route::group(['prefix' => 'auth'], function () {
     Route::get('login', 'Auth\Login@create')->name('login');
