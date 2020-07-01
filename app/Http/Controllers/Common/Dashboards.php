@@ -24,9 +24,9 @@ class Dashboards extends Controller
     public function __construct()
     {
         // Add CRUD permission check
-        $this->middleware('permission:create-common-dashboards')->only(['create', 'store', 'duplicate', 'import']);
-        $this->middleware('permission:read-common-dashboards')->only(['show']);
-        $this->middleware('permission:update-common-dashboards')->only(['index', 'edit', 'export', 'update', 'enable', 'disable', 'share']);
+        $this->middleware('permission:create-common-dashboards')->only('create', 'store', 'duplicate', 'import');
+        $this->middleware('permission:read-common-dashboards')->only('show');
+        $this->middleware('permission:update-common-dashboards')->only('index', 'edit', 'export', 'update', 'enable', 'disable', 'share');
         $this->middleware('permission:delete-common-dashboards')->only('destroy');
     }
 
@@ -215,7 +215,7 @@ class Dashboards extends Controller
 
             flash($message)->success();
 
-            session(['dashboard_id' => user()->dashboards()->pluck('id')->first()]);
+            session(['dashboard_id' => user()->dashboards()->enabled()->pluck('id')->first()]);
         } else {
             $message = $response['message'];
 
