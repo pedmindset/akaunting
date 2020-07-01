@@ -43,5 +43,4 @@ class Settings extends Controller
 
         return response()->json($response);
     }
-    }
 }
