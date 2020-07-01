@@ -59,12 +59,12 @@ class CreateUser extends Job
                 return;
             }
 
-            // foreach ($this->user->companies as $company) {
-            //     Artisan::call('user:seed', [
-            //         'user' => $this->user->id,
-            //         'company' => $company->id,
-            //     ]);
-            // }
+            foreach ($this->user->companies as $company) {
+                Artisan::call('user:seed', [
+                    'user' => $this->user->id,
+                    'company' => $company->id,
+                ]);
+            }
         });
 
         return $this->user;
