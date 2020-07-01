@@ -25,7 +25,7 @@ trait DatabaseCreation {
         ]));
     }
 
-    public static function createUser($email, $password, $locale, $role)
+    public static function createUser($email, $password, $locale, $roles)
     {
         dispatch_now(new CreateUser([
             'name' => '',
@@ -33,7 +33,7 @@ trait DatabaseCreation {
             'password' => $password,
             'locale' => 'en_GB',
             'companies' => session('company_id', 1),
-            'roles' => $role,
+            'roles' => $roles,
             'enabled' => '1',
         ]));
     }

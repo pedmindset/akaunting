@@ -17,7 +17,7 @@ trait SettingRequest {
             'company_email' => 'required',
             'user_email' => 'required',
             'user_password' => 'required',
-            'role' => 'required',
+            'roles' => 'required',
             'currency' => 'required',
         ];
     }

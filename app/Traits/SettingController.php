@@ -17,12 +17,12 @@ trait SettingController {
     public function store(Request $request)
     {
         session(['locale' => 'en_GB']);
-        
+
         // Create company
         Installer::createCompany($request->get('company_name'), $request->get('company_email'), session('locale'));
 
         // Create user
-        Installer::createUser($request->get('user_email'), $request->get('user_password'), session('locale'));
+        Installer::createUser($request->get('user_email'), $request->get('user_password'), session('locale'), $request->roles);
 
         // Make the final touches
         Installer::finalTouches();
