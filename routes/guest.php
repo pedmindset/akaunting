@@ -9,6 +9,10 @@ use Illuminate\Support\Facades\Route;
  * @see \modules\PaypalStandard\Routes\guest.php for module example
  */
 
+Route::get('register', function(){
+    redirect('install/settings');
+})->name('register');
+
 Route::group(['prefix' => 'auth'], function () {
     Route::get('login', 'Auth\Login@create')->name('login');
     Route::post('login', 'Auth\Login@store');
@@ -19,4 +23,9 @@ Route::group(['prefix' => 'auth'], function () {
     //Route::get('reset', 'Auth\Reset@create');
     Route::get('reset/{token}', 'Auth\Reset@create')->name('reset');
     Route::post('reset', 'Auth\Reset@store')->name('reset.store');
+
+    Route::get('register', function(){
+        redirect('install/settings');
+    })->name('register');
+
 });
