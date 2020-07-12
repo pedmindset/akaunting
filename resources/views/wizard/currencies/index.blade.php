@@ -117,6 +117,7 @@
                     </tbody>
                 </table>
                 <input type="hidden" name="bulk_action_path" value="settings/currencies"/>
+                <input type="hidden" name="default_currency" value="1"/>
             {!! Form::close() !!}
         </div>
 
