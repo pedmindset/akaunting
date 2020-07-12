@@ -28,8 +28,15 @@ class CreatePaymentMethod extends Job
     {
         $methods = json_decode(setting('offline-payments.methods'), true);
 
+        try {
+            $data = 'offline-payments.' . $this->request->get('code') . '.' . (count($methods) + 1);
+        } catch (\Exception $e) {
+            $data = 'offline-payments.' . $this->request->get('code') . '.' . 1;
+        }
+
+
         $payment_method = [
-            'code' => 'offline-payments.' . $this->request->get('code') . '.' . (count($methods) + 1),
+            'code' => $data,
             'name' => $this->request->get('name'),
             'customer' => $this->request->get('customer'),
             'order' => $this->request->get('order'),
