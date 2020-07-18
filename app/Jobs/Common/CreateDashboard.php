@@ -33,6 +33,7 @@ class CreateDashboard extends Job
         $this->request['enabled'] = $this->request['enabled'] ?? 1;
 
         \DB::transaction(function () {
+
             $this->dashboard = Dashboard::create($this->request->only(['company_id', 'name', 'enabled']));
 
             $this->attachToUser();

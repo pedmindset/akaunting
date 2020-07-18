@@ -70,13 +70,13 @@ class CreateCompany extends Job
         // Attach company to user logged in
         $user->companies()->attach($this->company->id);
 
-        // if($this->company->id == 1){
+        if($this->company->id == 1){
             // User seeds
             Artisan::call('user:seed', [
                 'user' => $user->id,
                 'company' => $this->company->id,
             ]);
-        // }
+        }
 
     }
 
