@@ -3,7 +3,7 @@
 return [
 
     'version'               => 'Version',
-    'powered'               => '',
+    'powered'               => 'Powered by Akaunting',
     'link'                  => 'https://ampaccounts.com',
     'software'              => 'Copyright AMP Accounts',
 
