@@ -3,8 +3,8 @@
 return [
 
     'version'               => 'Version',
-    'powered'               => 'Copyright AMP Accounts',
+    'powered'               => '',
     'link'                  => 'https://ampaccounts.com',
-    'software'              => 'AMPaccounts',
+    'software'              => 'Copyright AMP Accounts',
 
 ];
