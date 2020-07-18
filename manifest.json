@@ -1,6 +1,6 @@
 {
-    "name": "Akaunting",
-    "short_name": "Akaunting",
+    "name": "Amp Accounts",
+    "short_name": "Amp Accounts",
     "start_url": ".?utm_source=pwa",
     "display": "standalone",
     "theme_color": "#FFFFFF",

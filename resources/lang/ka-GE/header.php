@@ -11,6 +11,6 @@ return [
         'items_stock'       => '{1} :საწყობში არსებული საქონლის დათვლა|[2,*] :საწყობში არსებული საქონლის დათვლა',
         'view_all'          => 'ყველას დათვალიერება'
     ],
-    'docs_link'             => 'https://akaunting.com',
+    'docs_link'             => 'https://ampaccounts.com',
 
 ];

@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count आगामी बिल|[2,*] :count आगामी बिल',
         'view_all'          => 'सभी देखें'
     ],
-    'docs_link'             => 'https://akaunting.com/docs',
-    'support_link'          => 'https://akaunting.com/support',
+    'docs_link'             => 'https://ampaccounts.com/docs',
+    'support_link'          => 'https://ampaccounts.com/support',
 
 ];

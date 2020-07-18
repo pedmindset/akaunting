@@ -4,7 +4,7 @@ return [
 
     'version'               => 'Versie',
     'powered'               => 'Mogelijk gemaakt door Akaunting',
-    'link'                  => 'https://akaunting.com',
+    'link'                  => 'https://ampaccounts.com',
     'software'              => 'Gratis boekhoudsoftware',
 
 ];

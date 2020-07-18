@@ -22,7 +22,7 @@ $factory->define(Contact::class, function (Faker $faker) use ($company) {
         'tax_number' => $faker->randomNumber(9),
         'phone' => $faker->phoneNumber,
         'address' => $faker->address,
-        'website' => 'https://akaunting.com',
+        'website' => 'https://ampaccounts.com',
         'currency_code' => setting('default.currency'),
         'reference' => $faker->text(5),
         'enabled' => $faker->boolean ? 1 : 0,

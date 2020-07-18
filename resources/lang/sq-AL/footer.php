@@ -4,7 +4,7 @@ return [
 
     'version'               => 'Versioni',
     'powered'               => 'Mundësuar nga Akaunting',
-    'link'                  => 'https://akaunting.com',
+    'link'                  => 'https://ampaccounts.com',
     'software'              => 'Program Kontabiliteti Falas',
 
 ];

@@ -12,9 +12,9 @@ return [
     'search'                => 'Hledat',
     'install'               => 'Instalovat',
     'buy_now'               => 'Koupit',
-    'api_key_link'          => '<a class="text-red" href="https://akaunting.com/profile" target="_blank">Klikněte zde</a> pro získání API klíče.',
+    'api_key_link'          => '<a class="text-red" href="https://ampaccounts.com/profile" target="_blank">Klikněte zde</a> pro získání API klíče.',
     'no_apps'               => 'V této kategorii zatím nejsou žádné aplikace.',
-    'developer'             => 'Jste vývojář? <a href="https://akaunting.com/blog/akaunting-app-store" target="_blank"> Zde</a> se můžete naučit, jak vytvořit aplikaci a začít hned prodávat!',
+    'developer'             => 'Jste vývojář? <a href="https://ampaccounts.com/blog/akaunting-app-store" target="_blank"> Zde</a> se můžete naučit, jak vytvořit aplikaci a začít hned prodávat!',
 
     'recommended_apps'      => 'Doporučené aplikace',
 

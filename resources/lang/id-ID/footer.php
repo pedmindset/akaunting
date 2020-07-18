@@ -4,7 +4,7 @@ return [
 
     'version'               => 'Versi',
     'powered'               => 'Didukung oleh Akaunting',
-    'link'                  => 'https://akaunting.com',
+    'link'                  => 'https://ampaccounts.com',
     'software'              => 'Perangkat Lunak Akutansi Gratis',
 
 ];

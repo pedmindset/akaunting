@@ -4,7 +4,7 @@
  * @package     Akaunting
  * @copyright   2017-2020 Akaunting. All rights reserved.
  * @license     GNU GPL version 3; see LICENSE.txt
- * @link        https://akaunting.com
+ * @link        https://ampaccounts.com
  */
 
 // Register the auto-loader

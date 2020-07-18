@@ -14,7 +14,7 @@ return [
     'buy_now'               => 'Jetzt kaufen',
     'get_api_key'           => '<a href=":url" target="_blank">Klicke hier</a> um Ihren API-Schlüssel zu erhalten.',
     'no_apps'               => 'Bisher existieren noch keine Apps in dieser Kategorie.',
-    'become_developer'      => 'Sind sie ein Entwickler? <a href="https://akaunting.com/blog/akaunting-app-store" target="_blank">Hier</a> lernen Sie wie Sie eine App erstellen und verkaufen können!',
+    'become_developer'      => 'Sind sie ein Entwickler? <a href="https://ampaccounts.com/blog/akaunting-app-store" target="_blank">Hier</a> lernen Sie wie Sie eine App erstellen und verkaufen können!',
     'recommended_apps'      => 'Empfohlene Apps',
 
     'about'                 => 'Über',

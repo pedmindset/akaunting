@@ -12,9 +12,9 @@ return [
     'search'                => 'Αναζήτηση',
     'install'               => 'Εγκατάσταση',
     'buy_now'               => 'Αγοράστε τώρα',
-    'api_key_link'          => '<a class="text-red" href="https://akaunting.com/profile" target="_blank">Πατήστε εδώ</a> για να πάρετε το API κλειδί σας.',
+    'api_key_link'          => '<a class="text-red" href="https://ampaccounts.com/profile" target="_blank">Πατήστε εδώ</a> για να πάρετε το API κλειδί σας.',
     'no_apps'               => 'Δεν υπάρχουν εφαρμογές σε αυτή την κατηγορία, ακόμα.',
-    'developer'             => 'Είστε προγραμματιστής;<a href="https://akaunting.com/developers" target="_blank">Εδώ</a> εδώ μπορείτε να μάθετε πώς να δημιουργήσετε μια εφαρμογή και να ξεκινήσετε να την πουλάτε σήμερα!',
+    'developer'             => 'Είστε προγραμματιστής;<a href="https://ampaccounts.com/developers" target="_blank">Εδώ</a> εδώ μπορείτε να μάθετε πώς να δημιουργήσετε μια εφαρμογή και να ξεκινήσετε να την πουλάτε σήμερα!',
 
     'recommended_apps'      => 'Προτεινόμενες Εφαρμογές',
 

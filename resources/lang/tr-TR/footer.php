@@ -4,7 +4,7 @@ return [
 
     'version'               => 'Sürüm',
     'powered'               => 'Altyapı Akaunting',
-    'link'                  => 'https://akaunting.com/tr',
+    'link'                  => 'https://ampaccounts.com/tr',
     'software'              => 'Ücretsiz Ön Muhasebe Programı',
 
 ];

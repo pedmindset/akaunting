@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count aankomende factuur | [2,*] :count aankomende facturen',
         'view_all'          => 'Alles Weergeven'
     ],
-    'docs_link'             => 'https://akaunting.com/docs',
-    'support_link'          => 'https://akaunting.com/support',
+    'docs_link'             => 'https://ampaccounts.com/docs',
+    'support_link'          => 'https://ampaccounts.com/support',
 
 ];

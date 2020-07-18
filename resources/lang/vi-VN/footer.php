@@ -4,7 +4,7 @@ return [
 
     'version'               => 'Phiên bản',
     'powered'               => 'Powered By Akaunting',
-    'link'                  => 'https://akaunting.com',
+    'link'                  => 'https://ampaccounts.com',
     'software'              => 'Phần mềm kế toán miễn phí',
 
 ];

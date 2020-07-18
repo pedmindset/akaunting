@@ -12,9 +12,9 @@ return [
     'search'                => 'Поиск',
     'install'               => 'Установить',
     'buy_now'               => 'Купить сейчас',
-    'api_key_link'          => '<a class="text-red" href="https://akaunting.com/profile" target="_blank">Нажмите здесь</a>, чтобы получить ваш ключ API.',
+    'api_key_link'          => '<a class="text-red" href="https://ampaccounts.com/profile" target="_blank">Нажмите здесь</a>, чтобы получить ваш ключ API.',
     'no_apps'               => 'В этой категории еще нет приложений.',
-    'developer'             => 'Вы разработчик? <a href="https://akaunting.com/developers" target="_blank">Здесь</a> вы можете узнать, как создать приложение и начать продавать уже сегодня!',
+    'developer'             => 'Вы разработчик? <a href="https://ampaccounts.com/developers" target="_blank">Здесь</a> вы можете узнать, как создать приложение и начать продавать уже сегодня!',
 
     'recommended_apps'      => 'Рекомендуемые приложения',
 

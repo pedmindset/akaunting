@@ -8,10 +8,10 @@
 
 Akaunting is a free, open source and online accounting software designed for small businesses and freelancers. It is built with modern technologies such as Laravel, VueJS, Bootstrap 4, RESTful API etc. Thanks to its modular structure, Akaunting provides an awesome App Store for users and developers.
 
-* [Home](https://akaunting.com) - The house of Akaunting
-* [Forum](https://akaunting.com/forum) - Ask for support
-* [Documentation](https://akaunting.com/docs) - Learn how to use and develop
-* [App Store](https://akaunting.com/apps) - Extend your Akaunting
+* [Home](https://ampaccounts.com) - The house of Akaunting
+* [Forum](https://ampaccounts.com/forum) - Ask for support
+* [Documentation](https://ampaccounts.com/docs) - Learn how to use and develop
+* [App Store](https://ampaccounts.com/apps) - Extend your Akaunting
 * [Translations](https://crowdin.com/project/akaunting) - Help us translate Akaunting
 
 ## Requirements
@@ -19,7 +19,7 @@ Akaunting is a free, open source and online accounting software designed for sma
 * PHP 7.2.5 or higher
 * Database (eg: MySQL, PostgreSQL, SQLite)
 * Web Server (eg: Apache, Nginx, IIS)
-* [Other libraries](https://akaunting.com/docs/requirements)
+* [Other libraries](https://ampaccounts.com/docs/requirements)
 
 ## Framework
 
@@ -44,7 +44,7 @@ Please, be very clear on your commit messages and pull requests, empty pull requ
 
 When contributing code to Akaunting, you must follow the PSR coding standards. The golden rule is: Imitate the existing Akaunting code.
 
-Please note that this project is released with a [Contributor Code of Conduct](https://akaunting.com/conduct). By participating in this project you agree to abide by its terms.
+Please note that this project is released with a [Contributor Code of Conduct](https://ampaccounts.com/conduct). By participating in this project you agree to abide by its terms.
 
 ## Translation
 
@@ -66,7 +66,7 @@ If you discover any security related issues, please email security@akaunting.com
 
 ## Partners
 
-Each of our partners can help you craft a beautiful, well-architected project. Feel free to get in [contact](https://akaunting.com/contact) with us to become a partner.
+Each of our partners can help you craft a beautiful, well-architected project. Feel free to get in [contact](https://ampaccounts.com/contact) with us to become a partner.
 
 * [Creative Tim](https://www.creative-tim.com) is our design partner since Akaunting 2.0 version. They create beautiful UI Kits, Templates, and Dashboards built on top of Bootstrap, Vue.js, React, Angular, Node.js, and Laravel.
 

@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count bevorstehende Rechnung|[2,*] :count bevorstehende Rechnungen',
         'view_all'          => 'Alle anzeigen'
     ],
-    'docs_link'             => 'https://akaunting.com/docs',
-    'support_link'          => 'https://akaunting.com/support',
+    'docs_link'             => 'https://ampaccounts.com/docs',
+    'support_link'          => 'https://ampaccounts.com/support',
 
 ];

@@ -45,7 +45,7 @@
                             <div class="invalid-feedback d-block" v-if="form.errors.has('api_key')" v-html="form.errors.get('api_key')"></div>
                         </div> --}}
                         <p class="mb-0 mt--3">
-                            <small>{!! trans('modules.get_api_key', ['url' => 'https://akaunting.com/dashboard']) !!}</small>
+                            <small>{!! trans('modules.get_api_key', ['url' => 'https://ampaccounts.com/dashboard']) !!}</small>
                         </p>
                         <br>
                     </div>

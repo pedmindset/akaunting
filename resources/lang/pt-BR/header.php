@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count vencimento atual|[2,*] :count vencimentos atual',
         'view_all'          => 'Visualizar todos'
     ],
-    'docs_link'             => 'https://akaunting.com/docs',
-    'support_link'          => 'https://akaunting.com/support',
+    'docs_link'             => 'https://ampaccounts.com/docs',
+    'support_link'          => 'https://ampaccounts.com/support',
 
 ];

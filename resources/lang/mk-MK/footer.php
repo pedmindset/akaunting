@@ -4,7 +4,7 @@ return [
 
     'version'               => 'Верзија',
     'powered'               => 'Овозможенo од Akaunting',
-    'link'                  => 'https://akaunting.com',
+    'link'                  => 'https://ampaccounts.com',
     'software'              => 'Бесплатен сметководствен софтвер',
 
 ];

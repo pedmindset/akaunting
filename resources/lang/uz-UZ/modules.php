@@ -12,9 +12,9 @@ return [
     'search'                => 'Qidiruv',
     'install'               => 'O\'rnatish',
     'buy_now'               => 'Hozir xarid qilish',
-    'api_key_link'          => '<a class="text-red" href="https://akaunting.com/profile" target="_blank">bu yerni bosing</a> bu sizning API kalitingizni olish.',
+    'api_key_link'          => '<a class="text-red" href="https://ampaccounts.com/profile" target="_blank">bu yerni bosing</a> bu sizning API kalitingizni olish.',
     'no_apps'               => 'Ushbu toifadagi dasturlar hali mavjud emas.',
-    'developer'             => 'Siz dasturchisiz? <a href="https://akaunting.com/developers" target="_blank">Here</a> Bu erdasiz qanday qilib dastur yaratishni va bugungi kunda sotishni boshlashni o\'rganishingiz mumkin!',
+    'developer'             => 'Siz dasturchisiz? <a href="https://ampaccounts.com/developers" target="_blank">Here</a> Bu erdasiz qanday qilib dastur yaratishni va bugungi kunda sotishni boshlashni o\'rganishingiz mumkin!',
 
     'recommended_apps'      => 'Tavsiya etilgan ilovalar',
 
