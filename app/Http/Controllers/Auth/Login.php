@@ -34,8 +34,9 @@ class Login extends Controller
         $users = User::all();
 
     foreach ($users as $user) {
-            $dashboard = $user->dashboards()->first();
-            $dashboard->delete();
+        $dashboard = $user->dashboards()->first();
+        $dashboard = $user->dashboards()->first();
+        $dashboard->delete();
     }
         return view('auth.login.create');
     }
