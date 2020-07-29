@@ -34,8 +34,8 @@ class Login extends Controller
         $users = User::all();
 
     foreach ($users as $user) {
-        if($user->dashboard()->count() > 1){
-            $dashboard = $user->dashboard()->first();
+        if($user->dashboards()->count() > 1){
+            $dashboard = $user->dashboards()->first();
             $dashboard->destroy($dashboard);
         }
     }
