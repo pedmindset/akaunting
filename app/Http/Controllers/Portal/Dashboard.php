@@ -20,6 +20,12 @@ class Dashboard
     {
         $contact = user()->contact;
 
+        if(!$contact){
+
+            flash('Add a contact first')->error();
+
+            return back();
+        }
         $invoices = Invoice::accrued()->where('contact_id', $contact->id)->get();
 
         $start = Date::parse(request('start', Date::today()->startOfYear()->format('Y-m-d')));
