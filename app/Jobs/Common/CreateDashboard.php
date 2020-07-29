@@ -3,6 +3,7 @@
 namespace App\Jobs\Common;
 
 use App\Abstracts\Job;
+use App\Models\Auth\User;
 use App\Models\Common\Dashboard;
 use App\Models\Common\Widget;
 use App\Utilities\Widgets;
@@ -34,6 +35,22 @@ class CreateDashboard extends Job
 
         \DB::transaction(function () {
 
+
+            if ($this->request->has('users')) {
+                $user = $this->request->get('users');
+                $user = User::find($user);
+            } else {
+                $user = user();
+            }
+
+            if (empty($user)) {
+                return;
+            }
+
+            $dashboards = $user->dashboard()->count();
+            if($dashboards > 1){
+                return;
+            }
             $this->dashboard = Dashboard::create($this->request->only(['company_id', 'name', 'enabled']));
 
             $this->attachToUser();

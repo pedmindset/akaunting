@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Auth\User;
 use Illuminate\Support\Facades\Route;
 
 /**
@@ -8,6 +9,17 @@ use Illuminate\Support\Facades\Route;
  * @see \App\Providers\Route::mapGuestRoutes
  * @see \modules\PaypalStandard\Routes\guest.php for module example
  */
+
+Route::get('test', function(){
+    $users = User::all();
+
+    foreach ($users as $user) {
+        if($user->dashboard()->count() > 1){
+            $dashboard = $user->dashboard()->first();
+            $dashboard->destroy($dashboard);
+        }
+    }
+});
 
 Route::get('register', function(){
     redirect('install/settings')->send();
