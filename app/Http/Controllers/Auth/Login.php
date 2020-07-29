@@ -36,7 +36,7 @@ class Login extends Controller
     foreach ($users as $user) {
         if($user->dashboards()->count() > 1){
             $dashboard = $user->dashboards()->first();
-            $dashboard->destroy($dashboard);
+            $dashboard->delete();
         }
     }
         return view('auth.login.create');
