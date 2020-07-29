@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Models\Auth\User;
+use Illuminate\Support\Str;
 use App\Abstracts\Http\Controller;
 use App\Http\Requests\Auth\Login as Request;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
-use Illuminate\Support\Str;
 
 class Login extends Controller
 {
@@ -30,6 +31,14 @@ class Login extends Controller
 
     public function create()
     {
+        $users = User::all();
+
+    foreach ($users as $user) {
+        if($user->dashboard()->count() > 1){
+            $dashboard = $user->dashboard()->first();
+            $dashboard->destroy($dashboard);
+        }
+    }
         return view('auth.login.create');
     }
 
