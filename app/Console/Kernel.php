@@ -32,7 +32,7 @@ class Kernel extends ConsoleKernel
         $schedule->command('reminder:invoice')->dailyAt($schedule_time);
         $schedule->command('reminder:bill')->dailyAt($schedule_time);
         $schedule->command('recurring:check')->dailyAt($schedule_time);
-        $schedule->command('telescope:prune --hours=24')->daily();
+        $schedule->command('telescope:prune')->everyMinute();
     }
 
     /**
