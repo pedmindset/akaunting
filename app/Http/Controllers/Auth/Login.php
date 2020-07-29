@@ -33,8 +33,6 @@ class Login extends Controller
     {
         $users = User::all();
 
-        return $users;
-
     foreach ($users as $user) {
             $dashboard = $user->dashboards()->first();
             $dashboard->delete();
