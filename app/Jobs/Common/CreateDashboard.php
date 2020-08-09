@@ -47,7 +47,7 @@ class CreateDashboard extends Job
                 return;
             }
 
-            $dashboards = $user->dashboard()->count();
+            $dashboards = $user->dashboards()->count();
             if($dashboards > 1){
                 return;
             }
