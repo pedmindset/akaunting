@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count Yaklaşan Fatura Mevcut|[2,*] :count Yaklaşan Fatura Mevcut',
         'view_all'          => 'Tümünü Görüntüle'
     ],
-    'docs_link'             => 'https://ampaccounts.com/docs',
+    'docs_link'             => 'https://support.ampaccounts.com',
     'support_link'          => 'https://ampaccounts.com/support',
 
 ];

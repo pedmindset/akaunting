@@ -119,7 +119,7 @@
             </div>
         </div>
     @else
-        @include('partials.admin.empty_page', ['page' => 'revenues', 'docs_path' => 'sales/revenues'])
+        @include('partials.admin.empty_page', ['page' => 'revenues', 'docs_path' => 'knowledgebase/sales-revenues/'])
     @endif
 @endsection
 

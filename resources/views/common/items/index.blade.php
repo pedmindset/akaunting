@@ -106,7 +106,7 @@
             </div>
         </div>
     @else
-        @include('partials.admin.empty_page', ['page' => 'items', 'docs_path' => 'items'])
+        @include('partials.admin.empty_page', ['page' => 'items', 'docs_path' => 'knowledgebase/items/'])
     @endif
 @endsection
 

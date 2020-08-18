@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count blížící se faktura|[2,*] :count blížící se faktury',
         'view_all'          => 'Zobrazit vše'
     ],
-    'docs_link'             => 'https://ampaccounts.com/docs',
+    'docs_link'             => 'https://support.ampaccounts.com',
     'support_link'          => 'https://ampaccounts.com/support',
 
 ];

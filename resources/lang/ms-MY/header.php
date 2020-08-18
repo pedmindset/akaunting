@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count bil akan datang|[2,*] :count bil-bil akan datang',
         'view_all'          => 'Lihat Semua'
     ],
-    'docs_link'             => 'https://ampaccounts.com/docs',
+    'docs_link'             => 'https://support.ampaccounts.com',
     'support_link'          => 'https://ampaccounts.com/sokongan',
 
 ];

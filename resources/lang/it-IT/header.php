@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count fattura di acquisto imminente|[2, *] :count fatture di acquisto imminenti',
         'view_all'          => 'Visualizza tutti'
     ],
-    'docs_link'             => 'https://ampaccounts.com/docs',
+    'docs_link'             => 'https://support.ampaccounts.com',
     'support_link'          => 'https://ampaccounts.com/support',
 
 ];

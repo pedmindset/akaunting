@@ -89,7 +89,7 @@
             </div>
         </div>
     @else
-        @include('partials.admin.empty_page', ['page' => 'taxes', 'docs_path' => 'settings/taxes'])
+        @include('partials.admin.empty_page', ['page' => 'taxes', 'docs_path' => ''])
     @endif
 @endsection
 

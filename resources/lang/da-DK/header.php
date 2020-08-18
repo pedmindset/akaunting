@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count kommende regning|[2,*] :count kommende regninger',
         'view_all'          => 'Vis alle'
     ],
-    'docs_link'             => 'https://ampaccounts.com/docs',
+    'docs_link'             => 'https://support.ampaccounts.com',
     'support_link'          => 'https://ampaccounts.com/support',
 
 ];

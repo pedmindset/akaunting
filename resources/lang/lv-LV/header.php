@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} Drīzumā jāapmaksā :count rēķins |[2,*] Drīzūmā jāapmaksā :count rēķini',
         'view_all'          => 'Skatīt visus'
     ],
-    'docs_link'             => 'https://ampaccounts.com/docs',
+    'docs_link'             => 'https://support.ampaccounts.com',
     'support_link'          => 'https://ampaccounts.com/support',
 
 ];

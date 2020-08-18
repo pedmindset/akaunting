@@ -103,7 +103,7 @@
             </div>
         </div>
     @else
-        @include('partials.admin.empty_page', ['page' => 'invoices', 'docs_path' => 'sales/invoices'])
+        @include('partials.admin.empty_page', ['page' => 'invoices', 'docs_path' => 'knowledgebase/sales-invoice/'])
     @endif
 @endsection
 

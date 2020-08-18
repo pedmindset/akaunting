@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1}: kelayotgan hisob-kitoblarni hisoblash | [2, *]: kelayotgan hisob-kitoblarni hisoblang',
         'view_all'          => 'Hammasini ko\'rish'
     ],
-    'docs_link'             => 'https://ampaccounts.com/docs',
+    'docs_link'             => 'https://support.ampaccounts.com',
     'support_link'          => 'https://ampaccounts.com/support',
 
 ];

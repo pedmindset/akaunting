@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :nombre de factures à venir|[2,*] :nombre de factures à venir',
         'view_all'          => 'Afficher tout'
     ],
-    'docs_link'             => 'https://ampaccounts.com/docs',
-    'support_link'          => 'https://ampaccounts.com/docs',
+    'docs_link'             => 'https://support.ampaccounts.com',
+    'support_link'          => 'https://support.ampaccounts.com',
 
 ];

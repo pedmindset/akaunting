@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count recibo por vencer|[2,*] :count recibos por vencer',
         'view_all'          => 'Ver todas'
     ],
-    'docs_link'             => 'https://ampaccounts.com/docs',
+    'docs_link'             => 'https://support.ampaccounts.com',
     'support_link'          => 'https://ampaccounts.com/support',
 
 ];

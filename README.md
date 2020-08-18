@@ -10,7 +10,7 @@ Akaunting is a free, open source and online accounting software designed for sma
 
 * [Home](https://ampaccounts.com) - The house of Akaunting
 * [Forum](https://ampaccounts.com/forum) - Ask for support
-* [Documentation](https://ampaccounts.com/docs) - Learn how to use and develop
+* [Documentation](https://support.ampaccounts.com) - Learn how to use and develop
 * [App Store](https://ampaccounts.com/apps) - Extend your Akaunting
 * [Translations](https://crowdin.com/project/akaunting) - Help us translate Akaunting
 
@@ -19,7 +19,7 @@ Akaunting is a free, open source and online accounting software designed for sma
 * PHP 7.2.5 or higher
 * Database (eg: MySQL, PostgreSQL, SQLite)
 * Web Server (eg: Apache, Nginx, IIS)
-* [Other libraries](https://ampaccounts.com/docs/requirements)
+* [Other libraries](https://support.ampaccounts.com/requirements)
 
 ## Framework
 

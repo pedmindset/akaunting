@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count nadolazeći račun|[2,*] :count nadolazećih računa',
         'view_all'          => 'Vidi sve'
     ],
-    'docs_link'             => 'https://ampaccounts.com/docs',
+    'docs_link'             => 'https://support.ampaccounts.com',
     'support_link'          => 'https://ampaccounts.com/support',
 
 ];

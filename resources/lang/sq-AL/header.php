@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count faturë e ardhshme |[2,*] :count fatura të ardhshme',
         'view_all'          => 'Shiko te Gjitha'
     ],
-    'docs_link'             => 'https://ampaccounts.com/docs',
+    'docs_link'             => 'https://support.ampaccounts.com',
     'support_link'          => 'https://ampaccounts.com/support',
 
 ];

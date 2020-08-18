@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count টি আসন্ন বিল|[2,*] :count টি আসন্ন বিল',
         'view_all'          => 'সবগুলো দেখুন'
     ],
-    'docs_link'             => 'https://ampaccounts.com/docs',
+    'docs_link'             => 'https://support.ampaccounts.com',
     'support_link'          => 'https://ampaccounts.com/support',
 
 ];

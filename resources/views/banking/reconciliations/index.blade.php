@@ -85,7 +85,7 @@
         </div>
         </div>
     @else
-        @include('partials.admin.empty_page', ['page' => 'reconciliations', 'docs_path' => 'banking/reconciliations'])
+        @include('partials.admin.empty_page', ['page' => 'reconciliations', 'docs_path' => ''])
     @endif
 @endsection
 

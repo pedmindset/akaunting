@@ -77,7 +77,7 @@
             </div>
         </div>
     @else
-        @include('partials.admin.empty_page', ['page' => 'transfers', 'docs_path' => 'banking/transfers'])
+        @include('partials.admin.empty_page', ['page' => 'transfers', 'docs_path' => ''])
     @endif
 @endsection
 

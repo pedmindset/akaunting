@@ -10,7 +10,7 @@ return [
         'upcoming_bills'    => '{1} :count tagihan mendatang|[2,*] :count tagihan mendatang',
         'view_all'          => 'Tampilkan Semua'
     ],
-    'docs_link'             => 'https://ampaccounts.com/docs',
+    'docs_link'             => 'https://support.ampaccounts.com',
     'support_link'          => 'https://ampaccounts.com/support',
 
 ];
