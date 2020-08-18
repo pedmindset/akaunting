@@ -24,7 +24,7 @@
 
                 {{ Form::textGroup('number_next', trans('settings.invoice.next'), 'chevron-right', []) }}
 
-                {{ Form::selectGroup('payment_terms', trans('settings.invoice.payment_terms'), 'calendar', $payment_terms, $setting['payment_terms'], []) }}
+                {{ Form::selectGroup('payment_terms', trans('settings.invoice.payment_terms'), 'calendar', $payment_terms ?? [], $setting['payment_terms'] ?? [], []) }}
 
                 {{ Form::textGroup('title', trans('settings.invoice.title'), 'font', []) }}
 
