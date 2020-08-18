@@ -42,6 +42,8 @@ class Invoice extends Controller
             '90' => trans('settings.invoice.due_days', ['days' => 90]),
         ];
 
+        return         $payment_terms;
+
         return view('settings.invoice.edit', compact(
             'setting',
             'item_names',
