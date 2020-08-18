@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers\Settings;
 
-use App\Abstracts\Http\Controller;
 use App\Models\Setting\Setting;
+use App\Abstracts\Http\Controller;
+use Illuminate\Support\Facades\Log;
 
 class Invoice extends Controller
 {
@@ -42,7 +43,7 @@ class Invoice extends Controller
             '90' => trans('settings.invoice.due_days', ['days' => 90]),
         ];
 
-        return         $payment_terms;
+        Log::info($payment_terms);
 
         return view('settings.invoice.edit', compact(
             'setting',
